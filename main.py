@@ -1,4 +1,3 @@
 import sys
-from module1 import connect               
-
-connect()
+sys.path.append("..")
+from module import connect

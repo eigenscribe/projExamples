@@ -1,3 +1,4 @@
 from module import connect
 
-connect()
+if __name__ == '__main__':
+  connect()

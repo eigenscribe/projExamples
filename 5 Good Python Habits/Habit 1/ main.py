@@ -1,4 +1,4 @@
 from module import connect
 
-if __name__ == '__main__':
+if __name__ == "__main__":
   connect()

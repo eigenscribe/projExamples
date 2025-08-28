@@ -6,3 +6,5 @@ def connect() -> None:
 	print("✔️ You're connected!")
 	
 if __name__ == "__main__":
+	connect()
+	

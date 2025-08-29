@@ -1,14 +1,14 @@
 def greet() -> None:
-  print('Hello world!')
-
+	print("Hello world! 🌊🌍")
+	
 def bye() -> None:
-  print('Bye world!')
-
-# Good Habit 2 - 'bundle up all your definitions'
+	print("Bye world! 👋🏿🌎")
+	
+# Good Habit 2: bundle up your definitions
 def main() -> None:
-  greet()
-  bye()
+	greet()
+	bye()
 
-# Good Habit 1
-if __name__ == '__main__':
-  main()
+# Good Habit 1:
+if __name__ == "__main__":
+	main()

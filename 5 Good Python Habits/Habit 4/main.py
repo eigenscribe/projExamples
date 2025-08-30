@@ -8,5 +8,7 @@ def upper_everything(elements):
   return [element.upper() for element in elements]
 
 list1: list[str] = upper_everything(['Frodo', 'Sam', 'Merry', 'Pippen'])    # ✔️
-list2: list[int] = upper_everything(['Frodo', 'Sam', 'Merry', 'Pippen'])    # 🚫
-list3: list[int] = upper_everything([1, 2, 3, 4])                           # 🚫
+# list2: list[int] = upper_everything(['Frodo', 'Sam', 'Merry', 'Pippen'])    # 🚫
+# list3: list[int] = upper_everything([1, 2, 3, 4])                           # 🚫
+
+print(f"{list1}")
